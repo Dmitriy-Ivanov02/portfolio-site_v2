@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои проекты | Дмитрий</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">О себе</a>
+            <a href="projects.html" class="active">Проекты</a>
+            <a href="contact.html">Контакты</a>
+        </nav>
+        <button id="theme-toggle">Сменить тему</button>
+        <h1>Мои проекты</h1>
+    </header>
+
+    <main>
+        <section id="projects-list">
+            <h2>Реализованные проекты</h2>
+            
+            <article class="project-card">
+                <h3>Проект "Дом"</h3>
+                <div class="project-image">
+                    <img src="kurs.png" alt="Скриншот проекта Дом" style="width: 100%; max-width: 600px; border-radius: 8px;">
+                </div>
+                <div class="project-info">
+                    <p><strong>Описание:</strong> Детализированная 3D-модель загородного дома, созданная в рамках курсовой работы. Основной упор был сделан на архитектурную точность и работу с освещением.</p>
+                    <p><strong>Технологии:</strong> Blender, Cycles Render, моделирование по чертежам.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="future-projects">
+            <h2>Будущие проекты</h2>
+            <ul>
+                <li>
+                    <strong>Low-poly персонаж:</strong> Создание оптимизированной модели персонажа для инди-игры с полной анимацией (риггингом).
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 dmitry_dev</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
